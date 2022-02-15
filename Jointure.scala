@@ -8,9 +8,9 @@ import org.apache.spark.sql.functions.{col, date_format}
 
 object Jointure {
 
-  var joinColumn = "Identifiant arc"
-  var countColumn = "id"
-  var countOverColumn = "Identifiant arc"
+  var joinColumn = "iu_ac"
+  var countColumn = "iu_nd_amont"
+  var countOverColumn = "iu_ac"
 
   def main(args: Array[String]): Unit = {
     // TODO : créer son SparkSession

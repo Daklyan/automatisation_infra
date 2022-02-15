@@ -4,7 +4,7 @@ import org.apache.spark.sql.functions.{col, date_format}
 
 
 object Clean {
-  var date_column = "Date et heure de comptage"
+  var date_column = "t_1h"
 
   def main(args: Array[String]): Unit = {
     // TODO : créer son SparkSession
